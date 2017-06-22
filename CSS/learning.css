@@ -9,11 +9,19 @@
 
 #first-section {
   color: blue;
-  background-color: red;
-  width: 50%;
+  background-color: #DC143C;
+  width: 200px;
+  height: 200px;
+  float: left;
 }
 
 #second-section {
-  background-color: yellow;
-  height: 300px;
+  background-color: #B22222;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.clear-float {
+  clear: both;
 }
