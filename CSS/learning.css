@@ -1,0 +1,19 @@
+.H {
+  color: red;
+  font-size: 250%
+}
+
+#MT {
+  font-size: 100%
+}
+
+#first-section {
+  color: blue;
+  background-color: red;
+  width: 50%;
+}
+
+#second-section {
+  background-color: yellow;
+  height: 300px;
+}
