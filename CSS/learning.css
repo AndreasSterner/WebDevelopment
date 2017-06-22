@@ -12,16 +12,19 @@
   background-color: #DC143C;
   width: 200px;
   height: 200px;
-  float: left;
+  position: fixed;
+  left: 100px;
+  top: 200px;
+  border-spacing: 5px;
+  z-index: 2;
 }
 
 #second-section {
   background-color: #B22222;
   width: 200px;
   height: 200px;
-  float: left;
-}
+  position: relative;
+  height: 5000px;
+  z-index: 1;
 
-.clear-float {
-  clear: both;
 }
