@@ -21,6 +21,10 @@
 
 }
 
+#paragraph {
+  font-family: fantasy;
+}
+
 h1 {
   padding-bottom: 50px;
 }
@@ -32,4 +36,30 @@ body {
 
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 40px;
+  border: 5px orange solid;
+  border-color: black;
+  border-radius: 50%;
+}
+
+
+#square-red {
+  background-color: red;
+
+}
+
+#square-blue {
+  background-color: blue;
+
+}
+
+#square-green {
+  background-color: green;
+
 }
