@@ -1,7 +1,7 @@
 console.log("test"); // works
 
 var regex = /is/ // case sensitive
-var Regex = /Great/i //  case in sensitive
+var Regex = /Great/i //  case insensitive
 var amountRegex = /e/g // g = global (counts amount of time the word/character is used in the string)
 
 var string = "Regex is supposedly great"
