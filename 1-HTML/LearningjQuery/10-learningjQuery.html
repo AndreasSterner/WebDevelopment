@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../2-CSS/10-learningjQuery.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <title>jQuery Basics</title>
+  </head>
+  <body>
+
+    <div class="draggable" id="draggable1" class="ui-widget-content">
+      <p>I can be dragged only vertically</p>
+    </div>
+
+    <div class="draggable" id="draggable2" class="ui-widget-content">
+      <p>I can be dragged only horizontally</p>
+    </div>
+
+    <div id="containment-wrapper">
+    <div id="draggable3" class="draggable ui-widget-content">
+      <p>I'm contained within the box</p>
+    </div>
+
+    <div class="draggable" id="draggable4" class="ui-widget-content">
+      <p>I'm contained within my parent</p>
+    </div>
+
+    <div id="resizable" class="ui-widget-content">
+      <h3 class="ui-widget-header">Resizable</h3>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../../4-jQuery/10-Constraints.js" charset="utf-8"></script>
+  </body>
+</html>

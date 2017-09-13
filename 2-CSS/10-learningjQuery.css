@@ -1,0 +1,25 @@
+.draggable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  margin: 10px;
+}
+#draggable1 {
+  background-color: orange;
+}
+#draggable2 {
+  background-color: green;
+}
+#draggable3 {
+  background-color: purple;
+}
+#draggable4 {
+  background-color: red;
+}
+
+#containment-wrapper {
+  width: 20%;
+  height: 150px;
+  border:2px solid black;
+  padding: 10px;
+ }
